@@ -1,0 +1,71 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.weather-app{
+  min-height: 100vh;
+  background-image: url(./images/day/2475.jpg);
+}
+body {
+
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   background-image: url(./images/day/2475.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #fff;
+   position: relative;
+   transition:500ms;
+   opacity: 1;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#opencode {
+    font-size: 45px;
+    margin-bottom: 100px;
+}
+
+.icon img{
+    height: 256px;
+    width: 256px;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.temperature-description {
+    font-size: 25px;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
